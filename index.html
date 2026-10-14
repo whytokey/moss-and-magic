@@ -18,7 +18,27 @@
 <main id="shop" class="screen" data-section-id="01a13736-bcb2-79c0-a9c3-ed135f5e5462"><div class="scroll"><div id="shop-content" class="wrap"></div></div></main>
 <main id="game" class="screen" data-section-id="01a13736-bcb2-79e7-9f52-af94672bfa2a"><div class="game-shell">
 <aside class="side" data-section-id="01a13736-bcb2-79f2-89f3-f7ed6a3b4147"><div class="brand"><span>✦</span><span id="game-brand"></span></div><div class="eyebrow" id="game-mode"></div><h2 id="game-chapter" data-section-id="01a13736-bcb2-7a10-8784-3e4ed0a6b1ae"></h2><p id="game-desc" data-section-id="01a13736-bcb2-7a1e-ad0d-0dfe858909c2"></p><div class="statblock"><small id="best-label"></small><b id="game-best">0</b></div><div class="statblock"><small id="merge-label"></small><b id="game-merges">0</b></div><div class="statblock"><small id="rank-label"></small><b id="game-rank">1</b></div><button class="ghost" data-action="help" id="game-help"></button></aside>
-<div class="play-column"><div class="game-hud"><button class="iconbtn" data-action="pause" id="pause-btn" aria-label="Пауза">Ⅱ</button><div class="scorebox"><span id="score-label"></span><b id="score">0</b></div><div class="nextbox"><span id="next-label"></span><canvas id="next" width="96" height="96" data-section-id="01a13736-bcb2-7a75-8c33-869f05cde6fe"></canvas></div><div class="pill" id="game-progress">0</div></div><div class="board-wrap"><canvas id="board" width="960" height="1240" aria-label="Игровое поле" data-section-id="01a13736-bcb2-7a8a-bdfa-80940864b8dc"></canvas></div><div class="game-tools"><button class="tool" data-action="tool" data-value="swap" id="tool-swap"></button><button class="tool" data-action="tool" data-value="wind" id="tool-wind"></button><button class="tool" data-action="tool" data-value="clear" id="tool-clear"></button></div><div class="bottom-hint" id="input-hint"></div></div>
+<div class="play-column"><div class="game-hud">
+  <button class="iconbtn" data-action="pause" id="pause-btn" aria-label="Пауза">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="1.8"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    aria-hidden="true"
+    focusable="false"
+    style="display:block;pointer-events:none"
+  >
+    <circle cx="12" cy="12" r="3"></circle>
+    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68h.08A1.65 1.65 0 0 0 10 3.17V3a2 2 0 0 1 4 0v.09A1.65 1.65 0 0 0 15 4.6a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.32 9v.08A1.65 1.65 0 0 0 20.83 10H21a2 2 0 0 1 0 4h-.09A1.65 1.65 0 0 0 19.4 15z"></path>
+  </svg>
+</button>
+  <div class="scorebox"><span id="score-label"></span><b id="score">0</b></div><div class="nextbox"><span id="next-label"></span><canvas id="next" width="96" height="96" data-section-id="01a13736-bcb2-7a75-8c33-869f05cde6fe"></canvas></div><div class="pill" id="game-progress">0</div></div><div class="board-wrap"><canvas id="board" width="960" height="1240" aria-label="Игровое поле" data-section-id="01a13736-bcb2-7a8a-bdfa-80940864b8dc"></canvas></div><div class="game-tools"><button class="tool" data-action="tool" data-value="swap" id="tool-swap"></button><button class="tool" data-action="tool" data-value="wind" id="tool-wind"></button><button class="tool" data-action="tool" data-value="clear" id="tool-clear"></button></div><div class="bottom-hint" id="input-hint"></div></div>
 <aside class="side side-right" data-section-id="01a13736-bcb2-7ab7-a7cf-6be506b267cd"><div class="eyebrow" id="goal-label"></div><div class="targetbox"><h3 id="goal-title" data-section-id="01a13736-bcb2-7ac5-b9d0-9da0323f88f4"></h3><p id="goal-desc" data-section-id="01a13736-bcb2-7ada-90d9-d25f407a674b"></p><div class="bar"><i id="goal-bar"></i></div></div><div class="chain-list" id="game-chain"></div><p id="controls" data-section-id="01a13736-bcb2-7aed-b678-c60c9a07c6e5"></p><div class="statblock"><small id="coins-label"></small><b id="game-coins">0</b></div><p id="sound-note" data-section-id="01a13736-bcb2-7afb-84f2-4cd47d4f91b4"></p></aside>
 </div></main>
 <div id="overlay" class="overlay" role="dialog" aria-modal="true"><div id="modal" class="modal"></div></div><div id="toast" class="toast" role="status"></div>
